@@ -16,7 +16,7 @@ def index():
 def dashboard():
     """Tableau dashboard page"""
     return render_template('dashboard.html')
-
+# adding the route here for the story page, which will be used to display the Tableau story
 @app.route('/story')
 def story():
     """Tableau story page"""
